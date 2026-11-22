@@ -1,0 +1,573 @@
+姿势和服装参考图。图片来自下方原图库，均为生成图。	Pose and clothing references. Images are AI-generated and come from the credited galleries below.
+画画、拍照、出图时用的参考	References for drawing, photography and image generation
+每个姿势有多个角度，每套服装都附中英文描述。可以收藏、组合，也能上传自己的照片试穿。	Browse multiple pose angles and clothing descriptions. Save favorites, combine references, or try an outfit on your own photo.
+图片由原站托管，本站不保存。双人互动默认隐藏，需打开右上角「18+」并确认已满 18 岁。	Source images are credited to their original gallery. Couple references are hidden until you confirm you are 18 or older.
+在 AI 工具的「角色参考 / 脸部参考」里载入这张图即可。	Load this image as a character or face reference in your image tool.
+想统一长相用「正脸」；参考服装、发质和整体氛围用「生活照」。	Use a face portrait for consistent identity, or a lifestyle photo for clothing, hair and overall appearance.
+一直用同一张图，生成的脸会更稳定。下载原图 PNG 能保留更多细节。	Reuse the same reference for a more consistent face. Download the original PNG for full detail.
+CC0 1.0：可商用、可修改，无需署名。均为 AI 生成的虚构人物，不得用来冒充真人或用于违背公序良俗的用途。原作者希望不要把图片原样批量转载。	CC0 1.0: commercial use and modification are allowed without attribution. These are fictional AI-generated people; do not impersonate real people. The creator asks that originals not be redistributed in bulk.
+支持 OpenAI、Gemini、豆包或中转。Key 只存在你的浏览器里。	Supports OpenAI, Gemini, Seedream and compatible providers. Keys stay in this browser.
+中转不支持跨域（CORS）时再打开。只转发，不保存。不勾选时由浏览器直连中转地址（含非 443 端口）。	Enable only if your provider needs a CORS proxy. Otherwise the browser connects directly to your provider, including custom ports.
+只存在这个浏览器里，请求直接发给你填的地址。用公共电脑记得清除。	Stored only in this browser. Requests go to your configured endpoint. Clear the key on shared computers.
+用更中性的描述发送，减少正常穿搭被误判，不改变服装和姿势	Use neutral clothing descriptions to reduce false positives without changing the outfit or pose.
+包括双人互动、性感类姿势、深度姿势里的双人图，以及内衣、性感类服装。仅适合已满 18 岁的用户。只需确认一次，之后用顶部的「18+」开关随时打开或关闭。	Includes couple poses, mature references, lingerie and revealing outfits. For adults 18 and older. After confirming your age, use the 18+ switch to show or hide these references.
+包括双人互动、性感类姿势、深度姿势里的双人图，以及内衣、性感类服装。	Includes couple poses, mature references, lingerie and revealing outfits.
+仅适合已满 18 岁的用户。只需确认一次，之后用顶部开关随时打开或关闭。	For adults 18 and older. Confirm once, then use the top switch to show or hide these references.
+要查看它，需要打开顶部的「18+」开关。	Enable the 18+ switch to view this reference.
+打开后随时可以再关上。	You can turn it off again at any time.
+部分姿势和内衣、性感类服装属于成人向参考，默认不显示，可以用顶部的「18+」开关打开或关闭。	Mature poses and clothing are hidden by default. Use the 18+ switch to show or hide them.
+：收藏、浏览记录、筛选偏好、成人内容开关和试穿记录只保存在你的浏览器（localStorage / IndexedDB），不上传。清除浏览器数据即可删除。	: Favorites, browsing preferences and try-on history are saved in this browser. Your shared asset library is stored locally and synchronized to your private R2 bucket.
+：只保存在本机。生成时由浏览器直接发给你选择的服务商；开启「通过本站代理转发」或使用自定义中转时，请求会经过本站的转发接口，只转发、不记录、不保存。	: Image-provider keys stay in this browser and are sent to your configured provider. R2 credentials stay in the local server settings.
+：转发接口只接受本站页面发起的请求，只能访问官方接口地址。	: Proxy requests are restricted to approved endpoints.
+：本站不使用统计、广告或第三方追踪脚本，不设置 Cookie。	: This app does not use analytics, advertising or third-party tracking scripts.
+：姿势、服装、动画服装和人像由本站托管，来自 AI Pose Gallery、AI Costume Gallery、AI Costume Anime Gallery（@giaaibusi）与 AI Portrait Gallery（@agi_aibusi）。深度姿势的图片直接从 ai-pose-depth-gallery 加载，不经过本站，对方能看到请求的 IP；这些图片不发送来源页面地址。	: Images come from the credited pose, clothing, anime clothing, portrait and depth galleries. Downloaded images are served locally and backed up to your private R2 bucket.
+看到喜欢的，点卡片右上角的 ♡。收藏只存在这台设备的浏览器里，可以导出备份。	Select the heart on a card to save a favorite. Favorites stay in this browser; export them to make a backup.
+打开过的大图会按时间排在这里，最多保留 100 条。	Recently viewed references appear here, newest first. Up to 100 are kept.
+换个关键词试试，或者看看这些热门搜索：	Try another keyword or one of these popular searches:
+换个关键词，或清空筛选条件试试	Try another keyword or clear the filters.
+收藏只存在这台设备的浏览器里，可以导出备份。	Favorites are saved in this browser. Export them for a backup.
+网络已断开，看过的图片还能继续浏览	You are offline. Downloaded images are still available.
+数据加载失败	Could not load gallery data
+请检查网络后刷新页面重试	Check your connection and reload the page.
+当前浏览器不支持复制图片	This browser does not support copying images.
+这些图片在原站，请前往原站查看	View these images at the original gallery.
+深度姿势请到原站查看	View depth poses at the source gallery.
+选择姿势（可多选，最多 6 个）	Choose up to 6 poses
+选择人像（作为人物 / 脸部参考）	Choose a portrait or face reference
+选择表情（只迁移神态，不换脸）	Choose an expression; identity stays unchanged
+选择表情（可选）	Choose an expression (optional)
+选择姿势（可选）	Choose a pose (optional)
+最多上传 2 张服装图（上装 + 下装）	Upload up to 2 clothing images (top and bottom)
+最多 3 张人物照片	Up to 3 person photos
+最多选择 6 个姿势	Choose up to 6 poses
+参考图最多 5 张，已只发送前 5 张。	Only the first 5 reference images were sent.
+导出时包含 API Key 吗？	Include the API key in the settings export?
+上传照片，选一套衣服，换上看看。	Upload a photo and choose an outfit to try on.
+选模特类型和服装，直接出一张上身图。	Choose a model type and outfit to generate an image.
+填写中转商提供的 Base URL（通常以 /v1 结尾）与密钥，并按中转文档选择接口协议。	Enter your provider's base URL (usually ending in /v1), key and supported API protocol.
+密钥无效或已过期，请检查 API Key	Your API key is invalid or expired. Check the key.
+没有权限：密钥无此模型权限、账户未验证，或所在地区不受支持	Access denied. Check model permissions, account verification and regional availability.
+地址或模型不存在：请检查 Base URL 和模型名	Endpoint or model not found. Check the base URL and model name.
+请求过于频繁或额度已用完，请稍后再试或检查账户余额	Rate limit or quota reached. Try later or check your balance.
+服务商内部错误，请稍后重试	The provider encountered an error. Try again later.
+服务暂时不可用，请稍后重试	The service is temporarily unavailable. Try again later.
+服务商响应超时，请重试	The provider timed out. Try again.
+服务商没有返回图片数据	The provider did not return image data.
+模型没有返回图片	The model did not return an image.
+无法连接到服务商：网络不通，或该地址不允许浏览器跨域访问（CORS）。	Could not connect to the provider. Check your connection and the provider's CORS settings.
+图片太大，请换一张更小的照片	This image is too large. Choose a smaller photo.
+请求参数有误：常见原因是模型不支持参考图、画幅尺寸不对或图片格式不支持，可换个模型或画幅再试	The provider rejected the request parameters. Check reference-image support, image format and aspect ratio, or try another model.
+被服务商的安全审核拦下了	The provider's safety review blocked this request.
+可以换一家服务商，或换一套遮挡多一点的服装。原样重试大多还会被拦。	Review the provider's requirements or choose an outfit with more coverage before trying again.
+真人照片配上比较暴露的服装（泳装、内衣、露背等）很容易被拦，OpenAI 审核最严，Gemini 和豆包 Seedream 相对宽松一些。	Providers may restrict real-person photos with revealing clothing. Check the chosen provider's content requirements.
+等了 3 分钟还没有返回。服务商可能正忙，稍后点「重试」。	The provider has not responded after 3 minutes. It may be busy; try again later.
+该接口不支持参考图，结果只按文字生成，人物与服装可能对不齐。	This endpoint does not support reference images. Text-only results may differ from the selected person and outfit.
+该模型没有接收参考图，结果只按文字生成，人物与服装可能对不齐。	The model did not accept reference images. Text-only results may differ from the selected person and outfit.
+该接口不支持 images/edits，已自动改用 images/generations（JSON 多图）。	This endpoint does not support images/edits. Switched to images/generations with JSON references.
+已自动改用另一种图片字段名重试成功。	Retry succeeded using an alternative image field name.
+火山方舟接口不允许浏览器跨域，已开启本站代理	The Seedream endpoint requires a CORS proxy. Proxy enabled.
+本站代理未生效：/api/proxy 返回的是网站静态页面而不是接口响应，Seedream 暂时连不上，请稍后再试或联系站长	The API proxy is unavailable. Check the local proxy configuration before using Seedream.
+地址可达、密钥已被接受（方舟不提供模型列表接口，可直接生成测试）	Endpoint reachable and key accepted. Seedream does not list models; try an image request to test it.
+创建密钥；gpt-image-1 需要已验证的组织。	Create an API key. Some image models require organization verification.
+免费获取 API Key（AIza 开头）。	Get an API key from Google AI Studio.
+开通 Seedream 模型并创建 API Key；会自动走本站代理。	Enable a Seedream model and create an API key. A proxy is required.
+图片已复制到剪贴板	Image copied to clipboard
+打包失败，请重试	Could not create the ZIP. Try again.
+导入失败：文件格式不正确	Import failed: invalid file format.
+请输入	Enter
+请选择图片文件	Choose an image file
+请先上传人物照片	Upload a person photo first
+请先选择服装	Choose clothing first
+请先填写 API Key	Enter your API key first
+请先配置你的 API	Configure your image provider first
+请填写 Base URL	Enter a base URL
+自定义中转需要填写 Base URL	A custom provider requires a base URL
+请先	First,
+还缺：	Still needed:
+没有匹配的结果	No matching results
+没有找到匹配的内容	No matching references
+还没有收藏可导出	No favorites to export
+还没有收藏	No favorites yet
+还没有浏览记录	No recently viewed references
+还没有生成记录	No generated images yet
+当前没有可选的内容	No references available
+未找到该条目	Reference not found
+图片读取失败	Could not read the image
+无法读取这张图片	Could not read this image
+无法读取服装图	Could not read the clothing image
+人像加载失败	Could not load the portrait
+素材下载失败（	Reference download failed (
+结果图片无法在浏览器中下载，请直接打开：	Could not download the result. Open this URL:
+网关错误（中转服务不可用）	Gateway error: provider unavailable
+参数：当前接口协议与它的规格对不上，请检查「接口协议」设置（xAI 请改选 xAI 协议）	The selected API protocol does not match this model. Check the protocol settings.
+我已满 18 岁，打开	I am 18 or older; show references
+打开 18+ 开关	Enable 18+ references
+这是成人向内容	This reference is for adults
+显示成人向内容？	Show mature references?
+成人向内容已显示，点击关闭	Mature references are shown; select to hide
+成人向内容已隐藏，点击打开	Mature references are hidden; select to show
+已显示成人向内容，可用顶部开关关闭	Mature references shown. Use the top switch to hide them.
+已显示成人向内容	Mature references shown
+已关闭成人向内容	Mature references hidden
+已隐藏成人内容	Mature references hidden
+成人内容开关	Mature reference switch
+显示成人向内容（18+）	Show mature references (18+)
+成人向内容，默认关闭	Mature references; hidden by default
+不再显示这条说明	Dismiss this introduction
+关闭公告	Dismiss announcement
+人像使用提示与规则	Using portrait references
+需要一个图像模型的 API Key	An image-provider API key is required
+选好人物和服装后点「生成」	Choose a person and clothing, then select Generate.
+结果会显示在这里	Your results will appear here
+将生成 1 张	Generate 1 image
+正在上传素材…	Uploading references…
+正在准备素材…	Preparing references…
+正在连接…	Connecting…
+模型正在绘制… 共	Generating images… total
+模型正在绘制…	Generating image…
+每张约半分钟	About 30 seconds per image
+生成中…	Generating…
+生成失败	Generation failed
+生成完成	Generation complete
+已取消生成	Generation canceled
+已将结果设为新的人物照片	Result selected as the new person photo
+已设为人物照片	Person photo selected
+已设为脸部参考（生成时保持这张脸）	Face reference selected; preserve this identity
+已选为试穿服装	Try-on clothing selected
+已加入表情参考（只取神态）	Expression reference added; identity unchanged
+已加入姿势参考（	Pose reference added (
+已按当前选择重新生成提示词	Prompt refreshed from the current selections
+设置已保存在本机	Settings saved locally
+已从本机清除密钥	API keys cleared from this browser
+已导入设置	Settings imported
+已导出设置	Settings exported
+已关闭减少误拦截，将按原提示词发送	Neutral descriptions disabled; the original prompt will be sent
+已开启减少误拦截	Neutral descriptions enabled
+已开启减少误拦截）	Neutral descriptions enabled)
+已减少误拦截	Neutral description applied
+已加入收藏	Added to favorites
+已取消收藏	Removed from favorites
+已加入组合	Added to combination
+已移出组合	Removed from combination
+已清空组合	Combination cleared
+已从记录中移除	Removed from history
+已删除 1 条记录	Deleted 1 history entry
+已开始下载	Download started
+网络已恢复	Connection restored
+有新版本，点击刷新	An update is available. Select to refresh.
+人物照片	Person photo
+用我的照片	Use my photo
+没有照片	Without a photo
+上传人物照	Upload person photo
+上传人物照片	Upload person photo
+点击、拖入或粘贴	Click, drag or paste an image
+模特类型	Model type
+从人像库选	Choose a portrait
+从动画服装选	Choose anime clothing
+从表情库选	Choose an expression
+从库中选	Choose from gallery
+从库里选，或上传图片	Choose from the gallery or upload an image
+上传图	Upload image
+全部角度	All angles
+分开出	Separate images
+拼一张	Single collage
+未配置 API	Provider not configured
+未配置	Not configured
+API 设置	API settings
+接口协议	API protocol
+图片字段名	Image field name
+通过本站代理转发	Use the app proxy
+清除密钥	Clear API keys
+测试连接	Test connection
+自定义中转	Custom provider
+豆包 Seedream	Seedream
+火山方舟 · 国内直连	Volcano Ark endpoint
+火山方舟控制台	Volcano Ark console
+火山方舟 API Key	Volcano Ark API key
+方舟 API Key	Volcano Ark API key
+你的中转地址/v1	your-provider.example/v1
+OpenAI 兼容	OpenAI compatible
+保留原照片背景与光线	Keep the original background and lighting
+减少误拦截	Use neutral clothing descriptions
+高级设置	Advanced settings
+全部打包	Download all as ZIP
+生成记录	Generation history
+组合提示词	Combined prompt
+组合中文描述	Combined Chinese description
+组合英文提示词	Combined English prompt
+复制中文描述	Copy Chinese description
+复制英文提示词	Copy English prompt
+中文描述	Chinese description
+英文提示词 · PROMPT	English prompt
+英文提示词	English prompt
+深度姿势参考：	Depth pose reference:
+原始关键词：	Source keywords:
+日文原名：	Original Japanese name:
+生成的虚构人物，请勿用于冒充真人	fictional AI-generated people; do not impersonate real people
+非官方汉化	Unofficial adaptation
+来源与致谢	Sources and credits
+素材整理自公开图库	References collected from public galleries
+中文名称和描述由本站翻译	Names and descriptions adapted from the original galleries
+收藏和密钥只存在本机	Favorites and provider keys stay on this device
+SD 类模型用英文提示词更准	Use English prompts with Stable Diffusion models
+把姿势和服装放进组合	Combine pose and clothing references
+隐私说明	Privacy
+开源地址	Source code
+本机存储	Local storage
+API 密钥	API keys
+代理限制	Proxy restrictions
+统计	Analytics
+人像来自	Portraits from
+深度姿势热链自	Depth poses from
+素材来自	References from
+原作者	Original creator
+作者	Creator
+图片	Images
+使用提示	Usage tips
+知道了	Got it
+暂不	Not now
+去设置	Open settings
+去试穿	Open try-on
+去看看	Browse gallery
+更多筛选	More filters
+清空全部	Clear all
+清空筛选	Clear filters
+清空记录	Clear history
+导出收藏	Export favorites
+导入收藏	Import favorites
+默认排序	Default order
+编号倒序	Newest first
+随机打乱	Shuffle
+收藏优先	Favorites first
+人气榜	Popularity
+随机一个	Random reference
+随机一张	Random reference
+拍摄角度	Camera angle
+移除此条件	Remove this filter
+下载原图 PNG	Download original PNG
+下载原图	Download original
+下载图片	Download image
+分享链接	Share link
+复制图片	Copy image
+淘宝搜同款	Find similar on Taobao
+用作人物参考	Use as person reference
+用作姿势参考	Use as pose reference
+用作表情参考	Use as expression reference
+试穿这套	Try this outfit
+已在组合中	In combination
+加入组合	Add to combination
+移出组合	Remove from combination
+取消收藏	Remove favorite
+已收藏	Saved
+我的收藏	Favorites
+最近浏览	Recently viewed
+最近搜索	Recent searches
+相似推荐	Similar references
+热门	Popular
+搜索建议	Search suggestions
+打包下载	Download ZIP
+打包中…	Creating ZIP…
+下载失败	Download failed
+全选	Select all
+先选几张	Select some images first
+单次最多 60 张）	up to 60 images per batch)
+当前没有可选的内容	No references available
+大图：上一张 / 下一张	Preview: previous / next image
+大图：切换拍摄角度	Preview: switch camera angle
+大图：加入 / 移出组合	Preview: add / remove combination
+大图：复制中文描述	Preview: copy Chinese description
+大图：复制分享链接	Preview: copy share link
+大图：收藏	Preview: favorite
+切换描述语言（中 / 英）	Switch language (Chinese / English)
+切换深浅色	Switch light / dark theme
+切换栏目	Switch gallery
+聚焦搜索	Focus search
+快捷键帮助	Keyboard shortcuts
+快捷键	Keyboard shortcuts
+重新加载	Reload
+请前往原站查看	View at source gallery
+在原站查看	View at source gallery
+跳到内容	Skip to content
+搜索姿势、颜色、单品	Search poses, colors and clothing
+搜姿势、颜色、单品	Search poses, colors and clothing
+搜姿势名、系列、分类	Search pose names, collections and categories
+姿势、服装、动画服装、人像参考图	Pose, clothing and portrait references
+姿势和服装	Pose and clothing
+参考图	References
+人像库	Portrait gallery
+姿势库	Pose gallery
+服装库	Clothing gallery
+动画服装库	Anime clothing gallery
+深度姿势	Depth poses
+表情库	Expression gallery
+发型库	Hair gallery
+光影库	Lighting gallery
+场景库	Scene gallery
+道具库	Prop gallery
+家具库	Furniture gallery
+历代服饰	Historical clothing
+套动画服装	anime outfits
+套历代服饰	historical outfits
+张角度图	angle images
+组姿势	pose groups
+个人像	portraits
+张人像	portraits
+个深度姿势	depth poses
+个姿势	poses
+套服装	outfits
+个表情	expressions
+条表情	expressions
+款发型	hairstyles
+个场景	scenes
+种光影	lighting setups
+件道具	props
+件家具	furniture
+连接成功：共	Connected. Total:
+连接成功：模型	Connected. Model:
+请求失败（HTTP	Request failed (HTTP
+服务商返回：	Provider response:
+模型回复：	Model response:
+实际发送的提示词	Prompt sent to provider
+原提示词：	Original prompt:
+实际发送：	Sent prompt:
+查看原始信息	View original response
+请求参数	Request parameters
+张生成失败	images failed
+还缺	Missing
+可传脸部参考	Face references supported
+不选就保持原姿势	Leave empty to keep the original pose
+不选就随机	Leave empty for a random choice
+只取神态，不换脸	Expression only; identity unchanged
+最多	Up to
+已选为	Selected as
+已选	Selected
+已取消	Canceled
+已复制	Copied
+已导入	Imported
+已导出	Exported
+已清空	Cleared
+已完成	Completed
+已打包	Packed
+已展开	Expanded
+已收藏	Saved
+已取消	Canceled
+完成	Done
+将生成	Will generate
+确定	Confirm
+不含密钥	without API keys
+含密钥，请妥善保管	contains API keys; store securely
+不含	excludes
+包含，取消	included; deselect
+包含	Includes
+可能触发了安全策略	may have triggered a safety rule
+该服务商不支持	This provider does not support
+个人隐私信息	Personal information
+危险或违法内容	Dangerous or illegal content
+涉及未成年人	Content involving minors
+暴力或血腥	Violence or gore
+性感/暴露内容	Revealing content
+版权内容	Copyrighted content
+换服务商重试	Choose another provider
+换一套服装	Choose another outfit
+检查 API 设置	Check API settings
+打开减少误拦截后重试	Use neutral clothing descriptions and retry
+关闭对比	Close comparison
+前后对比	Before / after
+历史结果	Previous results
+本地上传	Local upload
+自定义图片	Custom image
+可在 API 设置中开启「通过本站代理转发」。	You can enable the app proxy in API settings.
+图片字段名	Image field name
+连接	Connection
+服务商	Provider
+模特	Model
+东亚女性	East Asian woman
+欧美女性	Western woman
+男性模特	Male model
+动漫角色	Anime character
+照片质感	Photorealistic
+影棚大片	Studio editorial
+城市街拍	Street style
+电商白底	White product background
+胶片氛围	Film look
+动漫插画	Anime illustration
+虚拟试穿	Virtual try-on
+人物	Person
+服装	Clothing
+动画服装	Anime clothing
+姿势	Pose
+人像	Portrait
+表情	Expression
+发型	Hairstyle
+历代	Historical
+场景	Scene
+光影	Lighting
+道具	Props
+家具	Furniture
+试穿	Try-on
+收藏	Favorites
+最近	Recent
+语言	Language
+英文	English
+中文	Chinese
+图片字段名	Image field name
+显示	Show
+隐藏	Hide
+密钥	API key
+模型	Model
+高级	Advanced
+保存	Save
+导出	Export
+导入	Import
+生成	Generate
+结果	Result
+原图	Original
+重来	Start over
+当原图	Use as original
+对比	Compare
+风格	Style
+画幅	Aspect ratio
+自动	Auto
+竖	Portrait
+横	Landscape
+方	Square
+数量	Count
+复制	Copy
+重置	Reset
+关闭	Close
+设置	Settings
+必选	Required
+可选	Optional
+下载	Download
+分享	Share
+搜索	Search
+筛选	Filters
+全部	All
+清空	Clear
+取消	Cancel
+清除	Clear
+展开	Expand
+收起	Collapse
+移除	Remove
+重试	Retry
+删除	Delete
+撤销	Undo
+批量	Batch
+今天	Today
+昨天	Yesterday
+近 7 天	Last 7 days
+更早	Earlier
+系列	Collection
+分类	Category
+角度	Angle
+类型	Type
+发长	Hair length
+单品	Garment
+颜色	Color
+情绪	Emotion
+强度	Intensity
+朝代	Era
+机位	Camera position
+视角	View
+编号	ID
+人气第	Popularity rank
+来源	Source
+复制分享链接	Copy share link
+衣姿 PoseWear	Product Video Studio
+衣姿	Product Video Studio
+中	Chinese
+豆	Seedream
+组 ·	groups ·
+共	Total
+第	No.
+条记录	history entries
+条收藏	favorites
+条提示词	prompts
+项收藏	favorites
+个角度	angles
+个模型	models
+个）	items)
+项	items
+张	images
+秒	seconds
+名	rank
+与	and
+点	Select
+更新 · 动画服装库上线	New: anime clothing gallery
+新增 1320 套动画风穿搭参考（公开 984 套，内衣、性感类在 18+ 开关后显示），按春、夏、秋、冬、派对、泳装分类，同样附中英文提示词，可收藏、组合，也能带进试穿工作台。	Browse 1,320 anime outfits across seasonal, party and swimwear categories. Mature references are hidden until the 18+ switch is enabled. Save favorites or use them in your studio.
+images/edits · multipart（OpenAI 官方格式）	images/edits · multipart (OpenAI format)
+images/generations · JSON 多图（多数中转 / gpt-image-2）	images/generations · JSON references (compatible providers / gpt-image-2)
+Gemini · models/:generateContent（Nano Banana 等）	Gemini · models/:generateContent (Nano Banana and compatible models)
+image[]（官方，多图）	image[] (official format, multiple images)
+image（部分中转）	image (some compatible providers)
+选择服装	Choose clothing
+选择动画服装	Choose anime clothing
+选择素材	Choose a reference
+首页	Home
+描述语言	Language
+GitHub 开源仓库	GitHub repository
+栏目	Gallery
+排序	Sort order
+工作模式	Workflow mode
+自定义模特描述，例如：25 岁成年女性，黑长直发，清淡妆容，身材纤细	Describe an adult model, for example: age 25, long straight black hair, natural makeup, slim build
+自定义模型描述，例如：25 岁成年女性，黑长直发，清淡妆容，身材纤细	Describe an adult model, for example: age 25, long straight black hair, natural makeup, slim build
+多姿势出图方式	Multiple-pose layout
+原始照片	Original photo
+补充要求（可选），例如：海边日落、半身构图、手拿咖啡…	Additional instructions (optional), for example: beach sunset, upper-body framing, holding a coffee…
+提示词语言	Prompt language
+最终提示词	Final prompt
+大图预览	Image preview
+上一张	Previous image
+下一张	Next image
+回到顶部	Back to top
+自定义	Custom
+加载中…	Loading…
+竖 2:3	Portrait 2:3
+竖 3:4	Portrait 3:4
+竖 9:16	Portrait 9:16
+方 1:1	Square 1:1
+横 4:3	Landscape 4:3
+横 16:9	Landscape 16:9
+PoseWear	Reference library
+描述语言：中文	Language: Chinese
+描述语言：英文提示词	Language: English
+选姿势（	Choose poses (
+内容安全	Content safety
+开背设计	Open-back design
+轻薄面料	Lightweight fabric
+高领	High neckline
+选择器	Reference picker
+上装	Top
+下装	Bottom
+连接成功	Connected
+请求失败	Request failed
+生图	Generate image
+电商模特图，纯白背景，均匀布光，全身构图	Full-body product-model photo with a white background and even lighting
+城市街拍抓拍，自然日光，浅景深	Candid city street-style photo with natural daylight and shallow depth of field
+高端时尚影棚，柔和主光，浅灰无缝背景，杂志画册质感	Fashion studio editorial with soft lighting and a seamless light-gray backdrop
+高质量动漫插画，干净线稿，柔和赛璐璐上色	High-quality anime illustration with clean line art and soft cel shading
+写实摄影质感，与原照片画质一致	Photorealistic, matching the original photo quality
+胶片摄影，暖色调，轻微颗粒，黄金时刻光线	Film photograph with warm tones, subtle grain and golden-hour light
+自定义模特描述，例如：25 岁成年女性，黑色长直发，清淡妆容，身材纤细	Describe an adult model, for example: age 25, long straight black hair, natural makeup, slim build
+画画、拍照、AI 出图时用。点开看大图和中英文描述，喜欢就收藏；也可以上传自己的照片试穿。	Browse references for drawing, photography and image generation. Open a preview to view the English description, save a favorite or use it in your studio.
+切换	Switch
+组合	Combination
+双马尾	Twin ponytails
+瞳色	Eye color
+造型台	Styling table
+从记录中移除	Remove from history
+逛姿势库	Browse poses
+逛深度姿势	Browse depth poses
+逛服装库	Browse clothing
+逛动画服装	Browse anime clothing
+逛人像库	Browse portraits
+逛表情库	Browse expressions
+逛历代服饰	Browse historical clothing
+逛场景库	Browse scenes
+表情图来自 WaveSpeed AI Emotion Gallery，底层头模为 ICT Face Model Light（ICT-FaceKit，© USC Institute for Creative Technologies，MIT）。无身份灰模头，只传神态、不传长相。	Expression references are from WaveSpeed AI Emotion Gallery, based on ICT Face Model Light (ICT-FaceKit, © USC Institute for Creative Technologies, MIT). The neutral head conveys expression, not identity.
+数据来自 CharaDB（作者 たき AI），标签数据 CC0；图片由原站托管、本站不保存，版权归原作者。	Data from CharaDB by Taki AI. Tags are CC0; images belong to their original creators and are hosted by the source gallery.
+中国历代服饰来自 Shisei（作者 wquguru），图片与数据 CC0 1.0，可自由使用。	Historical clothing references are from Shisei by wquguru. Images and data are CC0 1.0.
+场景来自 Shisei（作者 wquguru），图片与数据 CC0 1.0，可自由使用。空景中央留空，方便把人物放进去。	Scene references are from Shisei by wquguru, CC0 1.0. Space is left in the center for placing a person.
+光影来自 Shisei（作者 wquguru），图片与数据 CC0 1.0。同一个人台、同样的灰球，只有光在变——照着挑光型、抄英文描述即可。	Lighting references are from Shisei by wquguru, CC0 1.0. The mannequin and gray sphere stay fixed to demonstrate each lighting setup.
+道具来自 Shisei（作者 wquguru），图片与数据 CC0 1.0，可自由使用。	Prop references are from Shisei by wquguru. Images and data are CC0 1.0.
+家具来自 Shisei（作者 wquguru），图片与数据 CC0 1.0；尺寸为真实厘米数，与人台同比例。	Furniture references are from Shisei by wquguru, CC0 1.0. Dimensions are in centimeters and scaled to the mannequin.

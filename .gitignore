@@ -18,3 +18,15 @@ tests/screenshots/
 indexnow.key
 urls.txt
 .indexnow-state.json
+
+/studio/data/
+/studio/.env
+/studio/storage-private.json
+/local-site/
+__pycache__/
+.pytest_cache/
+
+/studio/*.log
+
+# Local browser verification images
+/integration/*.png

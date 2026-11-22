@@ -27,7 +27,7 @@ const COLS={'黑':'black','白':'white','红':'red','粉':'pink','蓝':'blue','�
 const ITEMK={'连衣裙':'dress','半身裙':'skirt','短裤':'shorts','长裤':'trousers','牛仔裤':'jeans','大衣':'coat','夹克':'jacket','开衫':'cardigan','衬衫':'blouse','毛衣':'sweater','吊带':'camisole','文胸':'bra','泳衣':'swimsuit','靴子':'boots','高跟鞋':'high heels','运动鞋':'sneakers','凉鞋':'sandals','连裤袜':'tights','长筒袜':'stockings'};
 const SUGG={pose:['站姿','坐姿','回头','双手抱头','可爱','躺卧','比心','跪立'],depth:['站姿','坐姿','上半身','全身','俯拍','侧面','可爱','跪立'],costume:['连衣裙','黑色','泳装','针织','蕾丝','冬季','牛仔','高跟鞋'],anime:['连衣裙','黑色','泳装','针织','蕾丝','冬季','牛仔','制服'],portrait:['短发','波波','狼尾','刘海','卷','奶茶','黑发','正脸'],expr:['开心','大笑','愤怒','害羞','搞怪','严肃'],hair:['长发','双马尾','刘海','发饰','瞳色'],dyn:['唐','宋','明','曲裾','齐胸'],scene:['客厅','庭院','街道','海岸'],light:['伦勃朗','窗光','黄昏','夜景'],prop:['吉他','油纸伞','灯笼','相机'],furn:['餐椅','沙发','造型台','床榻'],fav:[],recent:[]};
 function base(){return(st.tab=='fav'?[...st.fav].reverse().map(k=>ITEMS[k]):st.tab=='recent'?st.rec.map(k=>ITEMS[k]):DATA[st.tab]||[]).filter(ok)}
-function val(it,key){if(key=='ang')return it.angles.map(a=>a.zh);if(key=='type')return[TL(it)];
+function val(it,key){if(key=='ang')return it.angles?it.angles.map(a=>a.zh):(it.ang?[it.ang]:[]);if(key=='type')return[TL(it)];
  if(key=='col'){if(!it.kw)return[];if(!it._c){const w=' '+it.kw+' ';it._c=Object.keys(COLS).filter(c=>w.includes(' '+COLS[c]+' '))}return it._c}
  if(key=='item'){if(!it.kw)return[];if(!it._i){const e=' '+it.en.replace(/,/g,' ')+' ';it._i=Object.keys(ITEMK).filter(z=>e.includes(' '+ITEMK[z]+' '))}return it._i}return it[key]?[it[key]]:[]}
 function drawFilters(){
